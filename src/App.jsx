@@ -584,35 +584,13 @@ function ResultDetailModal({ result, onClose }) {
   );
 }
 
-function ResultsView({ result }) {
-  const [saveStatus, setSaveStatus] = useState('saving'); // 'saving' | 'saved' | 'error'
-  // Collision-proof key generated once and reused across retries so a retry
-  // never creates a duplicate row.
-  const keyRef = useRef(`results:${Date.now()}-${Math.random().toString(36).slice(2, 8)}`);
-
-  const save = useCallback(async () => {
-    if (!result) return;
-    setSaveStatus('saving');
-    try {
-      await window.storage.set(keyRef.current, JSON.stringify(result), true);
-      setSaveStatus('saved');
-    } catch (err) {
-      console.warn('Storage save failed:', err);
-      setSaveStatus('error');
-    }
-  }, [result]);
-
-  // Persist to shared storage once on mount. Results are always shown regardless.
-  const savedRef = useRef(false);
-  useEffect(() => {
-    if (!result || savedRef.current) return;
-    savedRef.current = true;
-    save();
-  }, [result, save]);
-
+// Presentational. The save itself happens in App's handleComplete (so it fires
+// the instant the quiz ends, independent of this view rendering); saveStatus and
+// onRetry are passed in.
+function ResultsView({ result, saveStatus, onRetry }) {
   // Direct navigation to #results with no attempt → go to name entry. This runs
-  // as an effect (not during render) so a transient null on the quiz→results
-  // transition can't bounce a real result back to the name screen.
+  // as an effect (not during render) so a transient null can't bounce a real
+  // result back to the name screen.
   useEffect(() => {
     if (!result) window.location.hash = '#quiz';
   }, [result]);
@@ -631,7 +609,7 @@ function ResultsView({ result }) {
               Nou pa t ka anrejistre rezilta ou a. Tcheke koneksyon entènèt ou epi eseye ankò.
             </p>
             <button
-              onClick={save}
+              onClick={onRetry}
               className="mt-3 inline-flex items-center gap-2 rounded-xl bg-[var(--red)] px-5 py-2.5 text-sm font-bold text-white active:scale-[0.99]"
             >
               <RefreshCw size={16} /> Reeseye anrejistreman
@@ -1177,6 +1155,8 @@ function getRoute() {
 export default function App() {
   const [route, setRoute] = useState(getRoute());
   const [result, setResult] = useState(null);
+  const [saveStatus, setSaveStatus] = useState('idle'); // 'idle'|'saving'|'saved'|'error'
+  const saveKeyRef = useRef(null); // collision-proof key, reused across retries
 
   useEffect(() => {
     const onHash = () => setRoute(getRoute());
@@ -1184,14 +1164,33 @@ export default function App() {
     return () => window.removeEventListener('hashchange', onHash);
   }, []);
 
+  const persist = useCallback(async (res) => {
+    setSaveStatus('saving');
+    try {
+      await window.storage.set(saveKeyRef.current, JSON.stringify(res), true);
+      setSaveStatus('saved');
+    } catch (err) {
+      console.warn('Storage save failed:', err);
+      setSaveStatus('error');
+    }
+  }, []);
+
   const handleComplete = (res) => {
+    // Persist immediately on completion — independent of ResultsView rendering —
+    // and set the route directly (don't rely on the async hashchange) so the
+    // results screen always mounts with the result present.
+    saveKeyRef.current = `results:${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
     setResult(res);
+    setRoute('results');
     window.location.hash = '#results';
+    persist(res);
   };
+
+  const retrySave = () => { if (result) persist(result); };
 
   switch (route) {
     case 'results':
-      return <ResultsView result={result} />;
+      return <ResultsView result={result} saveStatus={saveStatus} onRetry={retrySave} />;
     case 'dashboard':
       return <AdminDashboard />;
     case 'dashboard-hsf':
