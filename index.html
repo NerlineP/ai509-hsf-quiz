@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ht">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Tès Evalyasyon Atelye AI509 — HSF</title>
+
+    <!-- Tailwind core via Play CDN (no compiler / no build step) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Brand palette + base styles -->
+    <style>
+      :root {
+        --near-black: #070B16;
+        --gold:       #E0A93C;
+        --red:        #E11D26;
+        --paper:      #F4ECDA;
+        --paper-dark: #DDCDAE;
+        --white:      #FFFFFF;
+        --green:      #1E8E3E;
+      }
+      html, body, #root { height: 100%; }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--near-black);
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      /* Circular timer stroke animation is driven inline from JS via stroke-dashoffset */
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

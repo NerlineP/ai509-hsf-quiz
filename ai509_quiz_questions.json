@@ -1,0 +1,1074 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "A",
+      "sectionName": "Kisa AI ye ak AI jeneratif",
+      "question": "Kisa AI ye nan yon fason senp?",
+      "options": [
+        "Yon moun reyèl ki reponn sou entènèt",
+        "Yon zouti ki aprann modèl nan egzanp pou kreye oswa ede ak travay",
+        "Yon lojisyèl ki pa janm fè erè",
+        "Yon motè rechèch ki toujou bay verite"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 2,
+      "section": "A",
+      "sectionName": "Kisa AI ye ak AI jeneratif",
+      "question": "Kisa AI jeneratif ka fè?",
+      "options": [
+        "Ranplase tout pwofesè yo",
+        "Kreye nouvo kontni tankou tèks, imaj, son, videyo, oswa kòd",
+        "Sèlman chèche enfòmasyon sou Google",
+        "Sèlman kalkile chif"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 3,
+      "section": "A",
+      "sectionName": "Kisa AI ye ak AI jeneratif",
+      "question": "Kilès nan egzanp sa yo se yon itilizasyon AI jeneratif?",
+      "options": [
+        "Etenn òdinatè a",
+        "Konekte sou Wi-Fi",
+        "Chaje batri telefòn nan",
+        "Ekri yon script videyo"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 4,
+      "section": "A",
+      "sectionName": "Kisa AI ye ak AI jeneratif",
+      "question": "Poukisa li pa bon pou di AI 'konnen' menm jan ak moun?",
+      "options": [
+        "Paske AI sèlman pale angle",
+        "Paske AI rekonèt modèl nan done, men li pa panse tankou moun",
+        "Paske AI pa ka ekri",
+        "Paske AI pa ka itilize entènèt"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 5,
+      "section": "A",
+      "sectionName": "Kisa AI ye ak AI jeneratif",
+      "question": "Ki mesaj ki pi enpòtan sou AI ak travay moun?",
+      "options": [
+        "Moun pa bezwen aprann anyen ankò",
+        "Moun ki itilize AI byen ka gen avantaj sou moun ki pa itilize l",
+        "AI fè tout travay la san moun",
+        "AI ap toujou ranplase tout moun"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 6,
+      "section": "A",
+      "sectionName": "Kisa AI ye ak AI jeneratif",
+      "question": "Ki youn nan kategori kontni AI ka kreye?",
+      "options": [
+        "Elektrisite",
+        "Manje reyèl",
+        "Tèks",
+        "Dlo"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 7,
+      "section": "A",
+      "sectionName": "Kisa AI ye ak AI jeneratif",
+      "question": "Poukisa AI enpòtan pou jèn ann Ayiti?",
+      "options": [
+        "Paske li garanti tout moun ap jwenn travay",
+        "Paske li ka bay aksè ak zouti kreyatif menm lè moun pa gen gwo bidjè",
+        "Paske li retire bezwen pou aprann",
+        "Paske li fè tout egzamen pou elèv yo"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 8,
+      "section": "A",
+      "sectionName": "Kisa AI ye ak AI jeneratif",
+      "question": "Ki pi bon fason pou prezante AI bay yon debutan?",
+      "options": [
+        "Di yo AI pa janm fè erè",
+        "Bay egzanp reyèl nan lavi chak jou",
+        "Sèvi ak anpil tèm teknik difisil",
+        "Fè yo memorize non tout modèl AI yo"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 9,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Kisa 'AI Fluency' vle di?",
+      "options": [
+        "Konnen tout non zouti AI yo",
+        "Kapasite pou travay ak AI yon fason efikas, rapid, etik, ak an sekirite",
+        "Fè AI reponn tout bagay san verifye",
+        "Itilize AI sèlman pou fè imaj"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 10,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Ki youn nan kat D yo nan 4D Framework la?",
+      "options": [
+        "Divizyon",
+        "Distribisyon",
+        "Dekorasyon",
+        "Delegasyon"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 11,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Ki sa 'Delegasyon' vle di nan itilizasyon AI?",
+      "options": [
+        "Efase tout travay moun",
+        "Deside ki travay AI ka ede fè ak ki travay moun dwe kenbe",
+        "Itilize AI sèlman pou mizik",
+        "Bay AI tout responsabilite san kontwòl"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 12,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Ki sa 'Deskripsyon' vle di nan 4D Framework la?",
+      "options": [
+        "Pa bay AI okenn egzanp",
+        "Mande AI reponn san detay",
+        "Pale klè ak AI sou sa ou vle, kijan ou vle l, ak kontèks la",
+        "Dekri koulè ekran òdinatè a"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 13,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Ki sa 'Diskènman' vle di?",
+      "options": [
+        "Fè imaj sèlman",
+        "Fè AI travay pi vit",
+        "Aksepte tout repons AI yo",
+        "Evalye si repons AI a kòrèk, itil, ak adapte ak bezwen an"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 14,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Ki sa 'Dilijans' vle di nan itilizasyon AI?",
+      "options": [
+        "Pa janm di AI te ede w",
+        "Pran responsabilite, pwoteje done, verifye, epi rete etik",
+        "Kite AI pran tout desizyon",
+        "Itilize AI san reflechi"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 15,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Si AI ba ou yon repons ki sanble konvenkan men ki fo, ki D ki pi enpòtan pou aplike?",
+      "options": [
+        "Dekorasyon",
+        "Diskènman",
+        "Direksyon",
+        "Divètisman"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 16,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Si w ap deside si AI dwe ekri tout rapò a oswa sèlman ede ak rezime a, ki D w ap pratike?",
+      "options": [
+        "Delegasyon",
+        "Dilijans",
+        "Diskisyon",
+        "Distribisyon"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 17,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Si ou di AI: 'Ekri sa pou jèn 15 an, an Kreyòl senp, ak 5 pwen,' ki D sa plis reprezante?",
+      "options": [
+        "Deskripsyon",
+        "Dokimantasyon",
+        "Dekoneksyon",
+        "Dilijans"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 18,
+      "section": "B",
+      "sectionName": "AI Fluency ak 4D Framework",
+      "question": "Poukisa Dilijans enpòtan lè w ap itilize AI ak jèn yo?",
+      "options": [
+        "Paske li fè AI bay mizik pi bèl",
+        "Paske li retire bezwen pou pwofesè yo",
+        "Paske li ede yo pa janm itilize AI",
+        "Paske li ede yo itilize AI san triche, san mete done prive, epi ak responsabilite"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 19,
+      "section": "C",
+      "sectionName": "3 fason pou kolabore ak AI",
+      "question": "Ki sa 'Automation' vle di?",
+      "options": [
+        "AI ap toujou travay poukont li",
+        "Ou pa bezwen bay okenn enstriksyon",
+        "AI fè yon travay espesifik ou mande l fè",
+        "AI vin zanmi pèsonèl ou"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 20,
+      "section": "C",
+      "sectionName": "3 fason pou kolabore ak AI",
+      "question": "Ki egzanp ki pi byen montre 'Automation'?",
+      "options": [
+        "Pale ak AI pandan 30 minit sou lide biznis",
+        "Fè AI poze w kesyon sou rèv ou",
+        "Mande AI rezime yon dokiman",
+        "Fè yon gwoup diskisyon sou teknoloji"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 21,
+      "section": "C",
+      "sectionName": "3 fason pou kolabore ak AI",
+      "question": "Ki sa 'Augmentation' vle di?",
+      "options": [
+        "AI fè tout travay la poukont li",
+        "AI ranplase panse moun",
+        "Moun ak AI travay ansanm kòm patnè refleksyon",
+        "AI sèlman kreye son"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 22,
+      "section": "C",
+      "sectionName": "3 fason pou kolabore ak AI",
+      "question": "Ki egzanp ki pi byen montre 'Augmentation'?",
+      "options": [
+        "Pa itilize AI ditou",
+        "Mete telefòn nan sou silans",
+        "Mande AI korije òtograf sèlman",
+        "Devlope yon plan leson ansanm ak AI, revize l, epi amelyore l"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 23,
+      "section": "C",
+      "sectionName": "3 fason pou kolabore ak AI",
+      "question": "Ki sa 'Agency' vle di?",
+      "options": [
+        "AI pa bezwen okenn kontwòl",
+        "AI toujou pi bon pase moun",
+        "AI travay plis otonòm selon objektif oswa règ ou mete",
+        "AI sèlman fè tradiksyon"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 24,
+      "section": "C",
+      "sectionName": "3 fason pou kolabore ak AI",
+      "question": "Pou debutan yo, ki de mòd ki pi bon pou kòmanse?",
+      "options": [
+        "Automation ak Augmentation",
+        "Pa gen okenn",
+        "Agency sèlman",
+        "Otomatizasyon avanse sèlman"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 25,
+      "section": "D",
+      "sectionName": "Pwopriyete AI, limit, ak hallucination",
+      "question": "Kisa 'hallucination' vle di nan kontèks AI?",
+      "options": [
+        "Lè AI pale twò dousman",
+        "Lè AI dòmi",
+        "Lè AI pa ka ouvri yon fichye",
+        "Lè AI envante enfòmasyon oswa bay fo repons ak konfyans"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 26,
+      "section": "D",
+      "sectionName": "Pwopriyete AI, limit, ak hallucination",
+      "question": "Si AI ba ou yon dat istorik ki sanble fo, ki bon reyaksyon ou dwe genyen?",
+      "options": [
+        "Efase tout travay la",
+        "Mande AI fè yon imaj",
+        "Kopye l touswit",
+        "Verifye dat la ak yon sous serye"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 27,
+      "section": "D",
+      "sectionName": "Pwopriyete AI, limit, ak hallucination",
+      "question": "Ki kalite enfòmasyon ki plis bezwen verifikasyon?",
+      "options": [
+        "Yon non imajinè pou yon istwa",
+        "Yon lide pou koulè flyer",
+        "Chif, dat, non, sous, lwa, enfòmasyon medikal oswa finansye",
+        "Yon metafò nan yon powèm"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 28,
+      "section": "D",
+      "sectionName": "Pwopriyete AI, limit, ak hallucination",
+      "question": "Kisa 'memwa travay' oswa 'context window' vle di?",
+      "options": [
+        "Non folder AI a",
+        "Lis aplikasyon sou telefòn nan",
+        "Kapasite AI pou sonje tout entènèt la",
+        "Kantite enfòmasyon AI ka pran an konsiderasyon nan yon konvèsasyon oswa travay"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 29,
+      "section": "D",
+      "sectionName": "Pwopriyete AI, limit, ak hallucination",
+      "question": "Si yon konvèsasyon twò long, ki risk ki ka rive?",
+      "options": [
+        "AI ap refize tout kesyon",
+        "AI ka pèdi kèk enfòmasyon enpòtan oswa bliye kontèks",
+        "AI ap vin pi presi otomatikman",
+        "AI ap sispann egziste"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 30,
+      "section": "D",
+      "sectionName": "Pwopriyete AI, limit, ak hallucination",
+      "question": "Kisa 'steerability' vle di?",
+      "options": [
+        "Kapasite pou kondwi yon machin",
+        "Kapasite pou AI fè mizik sèlman",
+        "Kapasite pou fè Wi-Fi mache",
+        "Kapasite pou gide AI ak enstriksyon, ton, fòma, ak limit"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 31,
+      "section": "D",
+      "sectionName": "Pwopriyete AI, limit, ak hallucination",
+      "question": "Si AI respekte mo nan enstriksyon an men rezilta a pa atenn objektif ou, kisa ou ta dwe fè?",
+      "options": [
+        "Blame zouti a sèlman",
+        "Repete menm prompt la san chanjman",
+        "Pa janm itilize AI ankò",
+        "Re-ekri objektif la pi klè"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 32,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Poukisa yon prompt vag souvan bay yon repons vag?",
+      "options": [
+        "Paske AI pa renmen kesyon kout",
+        "Paske AI oblije devine kontèks, objektif, ak fòma ou vle a",
+        "Paske AI pa ka ekri",
+        "Paske prompt kout toujou ilegal"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 33,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Nan kad TKREI la, kisa 'T' vle di?",
+      "options": [
+        "Tanperati",
+        "Travay",
+        "Telefòn",
+        "Tradisyon"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 34,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Nan TKREI, kisa 'Kontèks' ede AI fè?",
+      "options": [
+        "Evite bay repons",
+        "Kreye mizik sèlman",
+        "Devine plis",
+        "Konprann sitiyasyon an, odyans lan, objektif la, ak limit yo"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 35,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Ki sa 'Referans' vle di nan prompt engineering?",
+      "options": [
+        "Yon egzanp konkrè ou bay AI pou montre style oswa kalite ou vle",
+        "Yon fichye ki pa gen rapò",
+        "Yon modpas",
+        "Yon dat nesans"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 36,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Nan TKREI, poukisa etap 'Evalye' enpòtan?",
+      "options": [
+        "Pou w efase tout prompt yo",
+        "Pou w tcheke si repons lan satisfè objektif la, ton an, ak presizyon an",
+        "Pou w evite pratike",
+        "Pou w aksepte repons lan san reflechi"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 37,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Kisa 'Itere' vle di?",
+      "options": [
+        "Mande AI bay yon repons pi long sèlman",
+        "Sispann itilize zouti a",
+        "Amelyore prompt oswa repons lan etap pa etap",
+        "Chanje lang òdinatè a"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 38,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Ki prompt ki pi bon?",
+      "options": [
+        "Ekri yon mesaj.",
+        "Fè yon bagay sou AI.",
+        "Ede m.",
+        "Aji kòm yon fòmatè. Ekri yon mesaj kout an Kreyòl pou envite jèn 15-20 an nan yon atelye AI. Ton an dwe senp, pozitif, ak motivasyonèl."
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 39,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Ki youn nan metòd RSAK pou amelyore yon prompt?",
+      "options": [
+        "Revize",
+        "Rale",
+        "Rete tann",
+        "Ranplase telefòn"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 40,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Si prompt ou a twò konplike, ki estrateji ki itil?",
+      "options": [
+        "Separe l an ti etap klè",
+        "Pa bay okenn limit",
+        "Efase kontèks la",
+        "Mete plis sijè ki pa gen rapò"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 41,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Ki bon itilizasyon 'Reverse Prompt Engineering'?",
+      "options": [
+        "Itilize AI san kontèks",
+        "Pran yon bon rezilta epi mande AI kreye yon prompt ki ta ka pwodui yon rezilta menm jan",
+        "Tradui tout bagay an Latin",
+        "Fè AI refize reponn"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 42,
+      "section": "E",
+      "sectionName": "Prompt engineering ak TKREI",
+      "question": "Poukisa li itil pou mande AI ede w ekri prompt la?",
+      "options": [
+        "Paske sa fè repons yo toujou pafè",
+        "Paske ou pap bezwen verifye anyen ankò",
+        "Paske AI ka ede òganize lide ou an yon enstriksyon pi klè",
+        "Paske sa retire bezwen pou moun reflechi"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 43,
+      "section": "F",
+      "sectionName": "Chwazi bon zouti AI pou bon travay",
+      "question": "Ki erè komen moun fè lè yo itilize AI?",
+      "options": [
+        "Yo eseye fòse yon sèl zouti fè tout bagay",
+        "Yo itilize zouti rechèch pou sous",
+        "Yo poze kesyon twò klè",
+        "Yo verifye twòp"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 44,
+      "section": "F",
+      "sectionName": "Chwazi bon zouti AI pou bon travay",
+      "question": "ChatGPT, Claude, ak Gemini antre nan ki kategori?",
+      "options": [
+        "Zouti sèlman pou kalkil bankè",
+        "Zouti sèlman pou mizik",
+        "Zouti sèlman pou otomatizasyon",
+        "Zouti rezonman jeneral"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 45,
+      "section": "F",
+      "sectionName": "Chwazi bon zouti AI pou bon travay",
+      "question": "Lè presizyon ak sous enpòtan, ki kalite zouti ou ta dwe konsidere?",
+      "options": [
+        "Yon app kamera",
+        "Zouti mizik sèlman",
+        "Nenpòt zouti san sous",
+        "Zouti rechèch tankou Perplexity oswa NotebookLM"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 46,
+      "section": "F",
+      "sectionName": "Chwazi bon zouti AI pou bon travay",
+      "question": "Zouti otomatizasyon tankou Zapier, Make, oswa n8n sèvi sitou pou kisa?",
+      "options": [
+        "Ranplase tout òdinatè",
+        "Bay tout repons san sous",
+        "Konekte app epi deplase done ant plizyè tach",
+        "Kreye chante konpa sèlman"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 47,
+      "section": "F",
+      "sectionName": "Chwazi bon zouti AI pou bon travay",
+      "question": "Ki bon fason pou konstwi pwòp sistèm AI pa w?",
+      "options": [
+        "Itilize zouti ki pi popilè a san reflechi",
+        "Chwazi yon zouti rezonman, yon zouti rechèch, kèk zouti espesyalis, epi petèt yon zouti otomatizasyon",
+        "Pa janm itilize zouti rechèch",
+        "Itilize sèlman yon zouti pou tout bagay"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 48,
+      "section": "F",
+      "sectionName": "Chwazi bon zouti AI pou bon travay",
+      "question": "Si ou vle kreye oswa edite imaj, ki kalite zouti ou bezwen?",
+      "options": [
+        "Zouti kalkil sèlman",
+        "Zouti email sèlman",
+        "Zouti espesyalis pou imaj oswa zouti AI ki gen fonksyon imaj",
+        "Zouti meteyo"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 49,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Kisa NotebookLM fè pi byen?",
+      "options": [
+        "Ede w travay sou sous ou mete ladan l: dokiman, lyen, videyo, oswa nòt",
+        "Kreye manje",
+        "Fè tout bagay san dokiman",
+        "Ranplase tout rechèch san sous"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 50,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Poukisa li bon pou kreye yon notebook ki gen yon sijè presi?",
+      "options": [
+        "Paske sous ki gen menm sijè bay repons ki pi konsantre",
+        "Paske li fè koulè ekran an chanje",
+        "Paske sa retire bezwen pou verifikasyon",
+        "Paske NotebookLM pa ka louvri plis pase yon paj"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 51,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Ki twa zòn prensipal nan NotebookLM?",
+      "options": [
+        "Search, Game, Phone",
+        "Camera, Music, Weather",
+        "Email, Calendar, Map",
+        "Sources, Chat, Studio"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 52,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Nan NotebookLM, poukisa sous yo enpòtan anpil?",
+      "options": [
+        "Paske san sous li pa ka louvri entènèt",
+        "Paske sous yo ranplase tout jijman moun",
+        "Paske repons yo baze sou sous ou bay yo",
+        "Paske sous yo fè mizik la pi fò"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 53,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Ki bon aksyon anvan ou fè konfyans repons NotebookLM?",
+      "options": [
+        "Kopye repons lan san li",
+        "Mete tout bagay nan majiskil",
+        "Verifye sitasyon yo ak pasaj orijinal yo",
+        "Efase tout sous yo"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 54,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Ki kalite kesyon ki pi bon nan NotebookLM?",
+      "options": [
+        "Kesyon vag tankou 'di m tout bagay'",
+        "Kesyon ki mande envante enfòmasyon",
+        "Kesyon presi ak fòma klè",
+        "Kesyon san rapò ak sous yo"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 55,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Ki itilite 'Mind Map' nan NotebookLM?",
+      "options": [
+        "Efase sous yo",
+        "Kreye modpas",
+        "Fè yon chante otomatikman",
+        "Montre koneksyon ant lide yo pou moun ki aprann vizyèlman"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 56,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Ki itilite 'Study Guide' oswa 'Quiz' nan NotebookLM?",
+      "options": [
+        "Fè piblisite otomatikman",
+        "Fè AI pa janm fè erè",
+        "Ede kreye materyèl aprantisaj ak kesyon pou verifye konpreyansyon",
+        "Kreye sèlman logo"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 57,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Si NotebookLM bay yon repons twò jeneral, ki aksyon ki ka ede?",
+      "options": [
+        "Ajoute plis sous san rapò",
+        "Kopye repons lan jan li ye a",
+        "Chwazi mwens sous epi poze yon kesyon pi presi",
+        "Fèmen òdinatè a"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 58,
+      "section": "G",
+      "sectionName": "NotebookLM",
+      "question": "Ki limit NotebookLM genyen?",
+      "options": [
+        "Li pa bezwen sous",
+        "Li pa janm bezwen verifikasyon",
+        "Li depann anpil de kalite sous ou mete ladan l",
+        "Li toujou pi kreyatif pase tout zouti"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 59,
+      "section": "H",
+      "sectionName": "SUNO ak mizik AI",
+      "question": "Kisa SUNO pèmèt ou fè?",
+      "options": [
+        "Sèlman analize PDF",
+        "Sèlman fè kalkil",
+        "Sèlman ekri email",
+        "Kreye mizik ak AI apati lide, lyrics, oswa style"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 60,
+      "section": "H",
+      "sectionName": "SUNO ak mizik AI",
+      "question": "Ki bon workflow pou kreye yon chante ak ChatGPT + SUNO?",
+      "options": [
+        "Fè SUNO devine tout bagay",
+        "Antre SUNO san okenn plan",
+        "Kopye yon chante atis reyèl",
+        "Bay ChatGPT lide a, prepare title/style/lyrics, epi mete yo nan SUNO"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 61,
+      "section": "H",
+      "sectionName": "SUNO ak mizik AI",
+      "question": "Poukisa li itil pou itilize ChatGPT anvan SUNO?",
+      "options": [
+        "Pou evite tande mizik la",
+        "Pou prepare lyrics, title, ak music style pi klè",
+        "Pou fè SUNO travay san entènèt",
+        "Pou retire bezwen pou chwazi style"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 62,
+      "section": "H",
+      "sectionName": "SUNO ak mizik AI",
+      "question": "Ki youn nan erè komen lè w ap itilize SUNO?",
+      "options": [
+        "Tande plizyè vèsyon anvan w chwazi",
+        "Mete twòp style diferan nan menm prompt la",
+        "Bay yon sijè klè",
+        "Sove bon prompt yo"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 63,
+      "section": "H",
+      "sectionName": "SUNO ak mizik AI",
+      "question": "Si ou vle monetize mizik ou kreye ak SUNO, kisa ou dwe fè?",
+      "options": [
+        "Pa li okenn règleman",
+        "Verifye règ, terms, ak commercial rights plan an",
+        "Sipoze tout mizik gratis pou vann",
+        "Mete non yon atis reyèl nan prompt la"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 64,
+      "section": "H",
+      "sectionName": "SUNO ak mizik AI",
+      "question": "Ki pratik ki pa responsab ak vwa/persona AI?",
+      "options": [
+        "Kreye pwòp style pa w",
+        "Klone oswa imite vwa yon moun reyèl san pèmisyon",
+        "Sove style ou renmen an",
+        "Fè yon chante motivasyonèl orijinal"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 65,
+      "section": "H",
+      "sectionName": "SUNO ak mizik AI",
+      "question": "Ki bon itilizasyon reverse prompt engineering nan SUNO?",
+      "options": [
+        "Fè SUNO bay yon rapò finansye",
+        "Pran yon style mizik ou renmen epi fè AI kreye yon template pou nouvo chante",
+        "Kopye chante yon atis reyèl",
+        "Efase lyrics yo"
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 66,
+      "section": "H",
+      "sectionName": "SUNO ak mizik AI",
+      "question": "Ki bon abitid apre SUNO jenere plizyè vèsyon yon chante?",
+      "options": [
+        "Efase tout vèsyon yo",
+        "Toujou pran premye vèsyon an",
+        "Koute yo, konpare vwa/chorus/vibe, epi chwazi pi bon an",
+        "Pa janm revize lyrics yo"
+      ],
+      "correctIndex": 2,
+      "correctLetter": "C"
+    },
+    {
+      "id": 67,
+      "section": "I",
+      "sectionName": "Jenerasyon imaj",
+      "question": "Poukisa jenerasyon imaj itil nan travay kontni ak fòmasyon?",
+      "options": [
+        "Li fè moun pa bezwen aprann ankò",
+        "Li travay sèlman pou jwèt",
+        "Li ranplase tout verifikasyon",
+        "Li ede kreye flyer, logo, thumbnail, vizyèl, ak materyèl ansèyman pi vit"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 68,
+      "section": "I",
+      "sectionName": "Jenerasyon imaj",
+      "question": "Ki sa 'iterasyon' vle di nan jenerasyon imaj?",
+      "options": [
+        "Efase imaj la",
+        "Pran premye rezilta a san chanjman",
+        "Pa bay okenn enstriksyon",
+        "Kreye yon premye vèsyon, korije l, epi amelyore l pa etap"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 69,
+      "section": "I",
+      "sectionName": "Jenerasyon imaj",
+      "question": "Si ou vle chanje yon sèl bagay nan yon imaj epi kenbe rès la menm jan, ki kalite enstriksyon ki pi bon?",
+      "options": [
+        "Fè yon lòt imaj.",
+        "Chanje koulè pòt la pou l vin ble. Kenbe tout rès la egzakteman menm jan.",
+        "Chanje tout bagay.",
+        "Fè l pi bèl."
+      ],
+      "correctIndex": 1,
+      "correctLetter": "B"
+    },
+    {
+      "id": 70,
+      "section": "I",
+      "sectionName": "Jenerasyon imaj",
+      "question": "Poukisa yon imaj referans itil?",
+      "options": [
+        "Li bay AI plis kontwòl sou moun, style, koulè, oswa objè ou vle kenbe",
+        "Li fè AI pa janm fè erè",
+        "Li retire bezwen pou prompt",
+        "Li fè entènèt vin pi vit"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 71,
+      "section": "I",
+      "sectionName": "Jenerasyon imaj",
+      "question": "Ki avètisman enpòtan sou plan gratis nan zouti imaj?",
+      "options": [
+        "Yo ka gen limit chak jou oswa watermark",
+        "Yo pa janm mete watermark",
+        "Yo toujou bay pi bon kalite pase plan peye",
+        "Yo toujou bay itilizasyon san limit"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 72,
+      "section": "I",
+      "sectionName": "Jenerasyon imaj",
+      "question": "Poukisa konsistans pèsonaj enpòtan nan imaj AI?",
+      "options": [
+        "Paske li ede kenbe menm moun oswa objè atravè plizyè sèn, espesyalman pou videyo oswa seri kontni",
+        "Paske li fè tout imaj nwa e blan",
+        "Paske li fè mizik la pi bon",
+        "Paske li retire bezwen pou kamera"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 73,
+      "section": "J",
+      "sectionName": "Jenerasyon videyo AI",
+      "question": "Ki eleman ki pi enpòtan nan yon bon prompt videyo?",
+      "options": [
+        "Non òdinatè a",
+        "Kantite mesaj nan inbox ou",
+        "Dat nesans moun nan",
+        "Sijè, aksyon, anviwònman, ak son"
+      ],
+      "correctIndex": 3,
+      "correctLetter": "D"
+    },
+    {
+      "id": 74,
+      "section": "J",
+      "sectionName": "Jenerasyon videyo AI",
+      "question": "Si ou vle yon videyo kote yon sòlda futurist ap goumen ak yon dragon nan yon chan batay medyeval, ki pati 'sòlda futurist' la reprezante?",
+      "options": [
+        "Sijè a",
+        "Son an",
+        "Style la sèlman",
+        "Kamera a"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    },
+    {
+      "id": 75,
+      "section": "J",
+      "sectionName": "Jenerasyon videyo AI",
+      "question": "Ki pi bon fason pou amelyore yon prompt videyo senp?",
+      "options": [
+        "Mande ChatGPT ajoute plis detay sou sijè, aksyon, anviwònman, son, kamera, mouvman, ak style",
+        "Retire tout detay yo",
+        "Mande AI pa suiv okenn enstriksyon",
+        "Mete sèlman yon mo nan prompt la"
+      ],
+      "correctIndex": 0,
+      "correctLetter": "A"
+    }
+  ],
+  "meta": {
+    "total": 75,
+    "perQuiz": 10,
+    "timerSeconds": 45,
+    "passThreshold": 7,
+    "language": "Kreyòl Ayisyen",
+    "workshop": "Atelye Fòmasyon Fòmatè AI509 × HSF",
+    "sections": {
+      "A": "Kisa AI ye ak AI jeneratif",
+      "B": "AI Fluency ak 4D Framework",
+      "C": "3 fason pou kolabore ak AI",
+      "D": "Pwopriyete AI, limit, ak hallucination",
+      "E": "Prompt engineering ak TKREI",
+      "F": "Chwazi bon zouti AI pou bon travay",
+      "G": "NotebookLM",
+      "H": "SUNO ak mizik AI",
+      "I": "Jenerasyon imaj",
+      "J": "Jenerasyon videyo AI"
+    }
+  }
+}
