@@ -53,6 +53,17 @@ async function callBackend(action, payload, extraHeaders) {
     err.status = res.status;
     throw err;
   }
+  // A 200 that isn't JSON means /api/storage was not routed to the function
+  // (e.g. the SPA rewrite served index.html). Surface it clearly instead of
+  // letting res.json() throw an opaque syntax error.
+  const contentType = res.headers.get('content-type') || '';
+  if (!contentType.includes('application/json')) {
+    const err = new Error(
+      `storage backend returned non-JSON (${res.status}, "${contentType}") — /api/storage is not hitting the serverless function`,
+    );
+    err.status = res.status;
+    throw err;
+  }
   return res.json();
 }
 
@@ -61,7 +72,8 @@ const shim = {
   async set(key, value, _shared = true) {
     try {
       await callBackend('set', { key, value });
-    } catch {
+    } catch (e) {
+      console.warn('[storage] set fell back to localStorage:', e?.message || e); // TEMP debug
       local.set(key, value);
     }
   },
@@ -71,7 +83,8 @@ const shim = {
       const data = await callBackend('get', { key });
       // backend returns { value } or { value: null }
       return data && data.value != null ? { value: data.value } : null;
-    } catch {
+    } catch (e) {
+      console.warn('[storage] get fell back to localStorage:', e?.message || e); // TEMP debug
       return local.get(key);
     }
   },
@@ -80,7 +93,8 @@ const shim = {
     try {
       const data = await callBackend('list', { prefix });
       return { keys: Array.isArray(data?.keys) ? data.keys : [] };
-    } catch {
+    } catch (e) {
+      console.warn('[storage] list fell back to localStorage:', e?.message || e); // TEMP debug
       return local.list(prefix);
     }
   },

@@ -610,11 +610,14 @@ function ResultsView({ result }) {
     save();
   }, [result, save]);
 
-  if (!result) {
-    // Direct navigation to #results with no attempt — go to name entry.
-    window.location.hash = '#quiz';
-    return null;
-  }
+  // Direct navigation to #results with no attempt → go to name entry. This runs
+  // as an effect (not during render) so a transient null on the quiz→results
+  // transition can't bounce a real result back to the name screen.
+  useEffect(() => {
+    if (!result) window.location.hash = '#quiz';
+  }, [result]);
+
+  if (!result) return null;
 
   return (
     <div className="min-h-full flex flex-col">
