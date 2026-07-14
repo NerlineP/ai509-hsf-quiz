@@ -588,13 +588,8 @@ function ResultDetailModal({ result, onClose }) {
 // the instant the quiz ends, independent of this view rendering); saveStatus and
 // onRetry are passed in.
 function ResultsView({ result, saveStatus, onRetry }) {
-  // Direct navigation to #results with no attempt → go to name entry. This runs
-  // as an effect (not during render) so a transient null can't bounce a real
-  // result back to the name screen.
-  useEffect(() => {
-    if (!result) window.location.hash = '#quiz';
-  }, [result]);
-
+  // App only renders this when a result exists; guard defensively without
+  // mutating the hash (App owns routing so there's nothing to redirect here).
   if (!result) return null;
 
   return (
@@ -1188,17 +1183,17 @@ export default function App() {
 
   const retrySave = () => { if (result) persist(result); };
 
-  switch (route) {
-    case 'results':
-      return <ResultsView result={result} saveStatus={saveStatus} onRetry={retrySave} />;
-    case 'dashboard':
-      return <AdminDashboard />;
-    case 'dashboard-hsf':
-      return <HsfDashboard />;
-    default:
-      // Date gate applies only to the quiz view; dashboards/results stay open.
-      return isQuizClosed()
-        ? <QuizClosed />
-        : <QuizFlow key="quiz" onComplete={handleComplete} />;
+  if (route === 'dashboard') return <AdminDashboard />;
+  if (route === 'dashboard-hsf') return <HsfDashboard />;
+  // Show the results screen only when a result exists. #results with no result
+  // (direct navigation, or any transient during the quiz→results switch) falls
+  // through to the quiz view instead of redirecting — so a real result is never
+  // bounced back to the name-entry screen.
+  if (route === 'results' && result) {
+    return <ResultsView result={result} saveStatus={saveStatus} onRetry={retrySave} />;
   }
+  // Date gate applies only to the quiz view; dashboards/results stay open.
+  return isQuizClosed()
+    ? <QuizClosed />
+    : <QuizFlow key="quiz" onComplete={handleComplete} />;
 }
