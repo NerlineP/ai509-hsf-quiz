@@ -51,7 +51,6 @@ function config() {
 // Run a single Redis command via the Upstash REST endpoint.
 async function redis(command) {
   const { url, token } = config();
-  console.log('[storage] redis ->', command[0], command[1] || ''); // TEMP debug logging
   const res = await fetch(url, {
     method: 'POST',
     headers: {
@@ -62,8 +61,7 @@ async function redis(command) {
   });
   if (!res.ok) {
     const text = await res.text();
-    console.error('[storage] upstash error', res.status, text); // TEMP debug logging
-    throw new Error(`upstash ${res.status}`);
+    throw new Error(`upstash ${res.status}: ${text}`);
   }
   const data = await res.json(); // { result: ... }
   return data.result;
@@ -83,16 +81,6 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'invalid json' });
   }
   const { action, key, value, prefix } = body;
-
-  // TEMP debug logging — shows in Vercel → Deployment → Logs (Functions).
-  // Reports which env vars are visible without ever printing their values.
-  console.log('[storage] request', {
-    action,
-    key,
-    hasKvUrl: !!(process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL),
-    hasKvToken: !!(process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN),
-    hasAdminToken: !!process.env.ADMIN_TOKEN,
-  });
 
   try {
     switch (action) {

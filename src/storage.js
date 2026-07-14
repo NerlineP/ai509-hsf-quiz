@@ -72,8 +72,7 @@ const shim = {
   async set(key, value, _shared = true) {
     try {
       await callBackend('set', { key, value });
-    } catch (e) {
-      console.warn('[storage] set fell back to localStorage:', e?.message || e); // TEMP debug
+    } catch {
       local.set(key, value);
     }
   },
@@ -83,8 +82,7 @@ const shim = {
       const data = await callBackend('get', { key });
       // backend returns { value } or { value: null }
       return data && data.value != null ? { value: data.value } : null;
-    } catch (e) {
-      console.warn('[storage] get fell back to localStorage:', e?.message || e); // TEMP debug
+    } catch {
       return local.get(key);
     }
   },
@@ -93,8 +91,7 @@ const shim = {
     try {
       const data = await callBackend('list', { prefix });
       return { keys: Array.isArray(data?.keys) ? data.keys : [] };
-    } catch (e) {
-      console.warn('[storage] list fell back to localStorage:', e?.message || e); // TEMP debug
+    } catch {
       return local.list(prefix);
     }
   },
